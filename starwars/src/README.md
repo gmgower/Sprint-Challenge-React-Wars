@@ -43,10 +43,10 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
 
     - Anything that affects something outside the scope of the function being executed. For instance, 
-    - fetching data from API
-    - timer
-    - logging in and out
-    - manually manipulating DOM
+        - fetching data from API
+        - timer
+        - logging in and out
+        - manually manipulating DOM
     - Use `useEffect`, `useState` to manage side effects. It tells react that a component needs to run/execute some side effect and access to      state, props, and local variables.
 
 ## Project Set Up

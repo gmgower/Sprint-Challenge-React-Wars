@@ -26,8 +26,9 @@ const App = () => {
     <div className='App'>
       <h1 className='Header'>React Wars</h1>
       <div className='card-list'>
-        {dataState.map(data => (
+        {dataState.map((data, index) => (
           <StarWarsCharacter
+            key={index}
             name={data.name}
             birth={data.birth_year}
             gender={data.gender}
