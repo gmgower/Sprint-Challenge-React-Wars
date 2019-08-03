@@ -1,24 +1,25 @@
 import React from 'react';
 import './StarWars.styles.css';
 import {} from 'semantic-ui-react';
-import styled from 'styled-components';
-import './StarWars.styled.js';
+import { StyledCardContainer } from './StarWars.styled.js';
 
 function StarWarsCharacter(props) {
   console.log(props);
   return (
-    <div>
-      <h1>{props.name}</h1>
+    <StyledCardContainer>
+      <h1>
+          {props.name}
+      </h1>
       <ul>
-        <li>{props.birth}</li>
-        <li>{props.gender}</li>
-        <li>{props.eye}</li>
-        <li>{props.hair}</li>
-        <li>{props.height}</li>
-        <li>{props.mass}</li>
-        <li>{props.skin}</li>
+        <li>Birth: {props.birth}</li>
+        <li>Gender: {props.gender}</li>
+        <li>Eyes: {props.eye}</li>
+        <li>Hair: {props.hair}</li>
+        <li>Height: {props.height}cm</li>
+        <li>Mass: {props.mass}kg</li>
+        <li>Skin: {props.skin}</li>
       </ul>
-    </div>
+    </StyledCardContainer>
   );
 }
 
