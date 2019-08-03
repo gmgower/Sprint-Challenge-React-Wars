@@ -26,19 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-    - React is a User Interface library that is used to create a complex, rich, and responsive user experience. It can handle complex state        (data) upon the user's activity, so the user can have dynamic state changes without refreshing the web page.  
+    - React is a User Interface library that is used to create a complex, rich, and responsive user experience. It can handle complex state(data) upon the user's activity, so the user can have dynamic state changes without refreshing the web page.  
 
 - [ ] What does it mean to _think_ in react?
 
-    - One of the most important concepts in React is building reusable components, breaking UI design into a component hierarchy. In this          architecture, you can pass props to a child component and update state.  
+    - One of the most important concepts in React is building reusable components, breaking UI design into a component hierarchy. In this    architecture, you can pass props to a child component and update state.  
 
 - [ ] Describe state.
 
-    - The state keeps track of a state variable from within a component and state can be changed, updated, or removed. The state determines        which component renders and behaves.
+    - The state keeps track of a state variable from within a component and state can be changed, updated, or removed. The state determines   which component renders and behaves.
 
 - [ ] Describe props.
 
-    - Props are short for "properties" that pass data to other components. Props contain the information set by the parent component (although     defaults can be set) and should not be changed.
+    - Props are short for "properties" that pass data to other components. Props contain the information set by the parent component (although defaults can be set) and should not be changed.
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
 
