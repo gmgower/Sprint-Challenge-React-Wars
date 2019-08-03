@@ -32,8 +32,16 @@ useEffect(() => {
 
       <div>
      {dataState.map(data =>
-    <StarWarsCharacter name={data.name} />
-
+    <StarWarsCharacter 
+    name={data.name}
+    birth={data.birth_year}
+    gender={data.gender}
+    eye={data.eye_color}
+    hair={data.hair_color}
+    height={data.height}
+    mass={data.mass}
+    skin={data.skin_color}    
+     />
     )}   
     </div>
     </div>
